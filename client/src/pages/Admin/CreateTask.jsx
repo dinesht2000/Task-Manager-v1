@@ -81,7 +81,7 @@ const CreateTask = () => {
 
           return {
             text:item,
-            completed:matchedTask?matchedTask.completed:false
+            completed:matchedTask?(matchedTask.completed):false
           }
 
         })
